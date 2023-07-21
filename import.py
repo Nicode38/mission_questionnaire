@@ -23,7 +23,7 @@ def generate_json_file(categorie, titre, url):
     out_questions_data = []
     try:
         response = requests.get(url)
-    except:
+    except: 
         print("Exception pour la requete : " + url)
     else:
         try:
